@@ -13,7 +13,7 @@ mongoose.connect(connecString, {
 })
 .catch((err)=>{
     console.log(connecString)
-    console.log(err)
+    //console.log(err)
 })
 
 
