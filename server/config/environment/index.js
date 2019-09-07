@@ -12,6 +12,7 @@ module.exports = {
        return all.port;
     },
     typeOfProd: function(){
-        return require(`./${process.env.NODE_ENV}.js`) || {};
+        return require(`./development.js`) || {};
+        //return require(`./${process.env.NODE_ENV}.js`) || {};
     }
 };
