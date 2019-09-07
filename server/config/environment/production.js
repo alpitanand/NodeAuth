@@ -19,7 +19,7 @@ module.exports = {
         uri: process.env.MONGODB_URI
             || process.env.MONGOHQ_URL
             || process.env.OPENSHIFT_MONGODB_DB_URL + process.env.OPENSHIFT_APP_NAME
-            || 'mongodb://localhost/blik'
+            || 'mongodb://alpit_annad:DBADBADBA1@ds317808.mlab.com:17808/blik-new'
     },
 
     // Seed database on startup
