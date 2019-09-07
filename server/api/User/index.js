@@ -5,6 +5,8 @@ const verify = require('../../auth/auth.service')
 //Create a user
 router.post('/',controller.create)
 
+
+
 //dummyRoute
 router.get('/check', verify, controller.check)
 

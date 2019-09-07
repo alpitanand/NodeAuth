@@ -16,6 +16,10 @@ mongoose.connect(connecString, {
 })
 
 
+app.get('/',(req,res)=>{
+    res.send("hey")
+})
+
 //Middlware
 app.use(express.json());
 
