@@ -10,6 +10,8 @@ module.exports.create = async (req, res) => {
     isAdmin: req.body.isAdmin
   };
 
+  console.log("Reaching till here")
+
   const salt = await bcrypt.genSalt(10);
   const hashPassword = await bcrypt.hash(data.password, salt);
 
