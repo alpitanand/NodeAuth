@@ -8,6 +8,6 @@ router.post('/',controller.create)
 
 
 //dummyRoute
-router.get('/check', verify, controller.check)
+router.get('/check', verify.isAuth(), controller.check)
 
 module.exports = router
