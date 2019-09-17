@@ -18,7 +18,7 @@ mongoose.connect(connecString, {
 
 
 app.get('/',(req,res)=>{
-    res.send("hey")
+    res.send("hey baby")
 })
 
 //Middlware
