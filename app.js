@@ -12,7 +12,7 @@ mongoose.connect(connecString, {
     console.log("Connection sucessfull");
 })
 .catch((err)=>{
-    console.log(connecString)
+    console.log(err)
     //console.log(err)
 })
 

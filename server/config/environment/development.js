@@ -6,7 +6,7 @@ module.exports = {
     // MongoDB connection options
     mongo: {
         useMongoClient: true,
-        uri: 'mongodb://alpit_annad:DBADBADBA1@ds317808.mlab.com:17808/blik-new'
+        uri: 'mongodb://alpit_anand:DBADBADBA1@ds257848.mlab.com:57848/blik-test'
     },
 
     // Seed database on startup
